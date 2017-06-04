@@ -1,0 +1,23 @@
+.contentBody{
+	margin:12px;
+	text-align:left;
+	word-wrap: break-word;
+    white-space: pre-wrap;
+}
+code{
+	word-wrap: break-word;
+    white-space: pre-wrap;
+}
+ul,li{
+	list-style: none;
+}
+.contentBody h2{
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.markdown-text,.markdown-text li{
+	text-align:left;
+}
+.markdown-text img{
+	width:100%;
+}

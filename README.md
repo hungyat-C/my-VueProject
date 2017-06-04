@@ -1,2 +1,21 @@
-# my-vueProject
-因为是mac下的项目，所以在win会报错：'script' 不是内部或外部命令，也不是可运行的程序；可以忽略;  npm install;  npm install vue-resource;  npm install jquery;  npm install --save mint-ui;  npm run dev;
+# menu
+
+> this is a router object
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

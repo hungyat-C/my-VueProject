@@ -1,0 +1,89 @@
+.listBody{
+	width:100%;overflow: hidden;
+}
+.listnav{
+  height:40px;
+  list-style: none
+}
+.listnav li{
+  float:left;width:20%;
+  line-height: 40px;
+  background:#f0f0f0;
+  color:#333;
+  font-size:16px;
+  text-align:
+  center;cursor:pointer;
+  margin:0;
+}
+.list{
+	padding:8px;
+}
+.list li{
+	display: flex;
+	box-sizing: border-box;
+	position:relative;
+	min-height:80px;
+	padding:12px;
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	overflow: hidden;
+	align-items: center;
+	margin:0 0 10px 0;
+}
+.list li span{
+	float: left;
+}
+.list li span.type{
+	position:absolute;
+	top:-40px;
+	left:-40px;
+	width:70px;
+	height:70px;
+	background: #ddd;
+	color:#333;
+	line-height:120px;
+	font-size:12px;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.list li span.type.good{
+	background: #6cf;
+	color:#fff;
+}
+.list li span.index{
+	margin-right:10px;
+}
+.list li span.face{
+	width:50px;
+	height:50px;
+	margin-right:10px;
+}
+.list li span.face img{
+	width:50px;
+	height:50px;
+}
+.list li span.title{
+	width:100%;
+	float:right;
+	font-size:16px;
+	color:#fff;
+	text-align:left;
+}
+.list_page{
+	height: 40px;
+	text-align:center;
+}
+.list_page span{
+	display: inline-block;
+	padding:0 20px;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;
+	background:#666;
+	border-radius:5px;
+}
+.list_page span:first-child{
+	margin-right:15px;
+}
